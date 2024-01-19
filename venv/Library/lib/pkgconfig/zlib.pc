@@ -1,0 +1,13 @@
+prefix=F:/SQL/venv/Library
+exec_prefix=F:/SQL/venv/Library
+libdir=F:/SQL/venv/Library/lib
+sharedlibdir=F:/SQL/venv/Library/lib
+includedir=F:/SQL/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
